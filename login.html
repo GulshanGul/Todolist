@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script   src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script   src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+
+    <script>
+
+const firebaseConfig = {
+  apiKey: "AIzaSyAMt7kb9wCvYMcpClMV65LRUsXv_ndP80I",
+  authDomain: "testing-d9c6f.firebaseapp.com",
+  projectId: "testing-d9c6f",
+  storageBucket: "testing-d9c6f.appspot.com",
+  messagingSenderId: "502115543677",
+  appId: "1:502115543677:web:18b61a96835eab83945f14",
+  measurementId: "G-YTTS3C5MXG"
+};
+        firebase.initializeApp(firebaseConfig);
+        </script>
+</head>
+<body>
+
+    <h1>login </h1>
+    <input type="email" id="email" placeholder="email">
+    <input type="password" id="password" placeholder="password">
+
+    <p id="error" style="color:red"></p>
+
+
+    <a href="./signup.html">create new account</a> <br />
+    <button onclick="login()">login</button>
+    
+    <script src="./login.js"></script>
+</body>
+</html>

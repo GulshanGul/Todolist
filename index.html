@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>es6</title>
+    <script   src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script   src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+    <script  src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+    <script  src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+    <script  src="https://www.gstatic.com/firebasejs/8.10.1/firebase-storage.js"></script>
+
+
+
+
+    <script>
+
+const firebaseConfig = {
+  apiKey: "AIzaSyAMt7kb9wCvYMcpClMV65LRUsXv_ndP80I",
+  authDomain: "testing-d9c6f.firebaseapp.com",
+  databaseURL: "https://testing-d9c6f-default-rtdb.firebaseio.com",
+  projectId: "testing-d9c6f",
+  storageBucket: "testing-d9c6f.appspot.com",
+  messagingSenderId: "502115543677",
+  appId: "1:502115543677:web:18b61a96835eab83945f14",
+  measurementId: "G-YTTS3C5MXG"
+};
+        firebase.initializeApp(firebaseConfig);
+        </script>
+</head>
+<body>
+
+<!-- 
+  <input type="file" id="_file"  />
+
+  <button onclick="uploadProfilePic()">save pic</button>
+  <hr /> -->
+<!-- 
+  <progress value="0" max="100" id="_bar"></progress>
+     --> -->
+<!-- 
+  <button onclick="logout()">logout</button>
+<h1 id="email"></h1>
+<h1 id="_id"></h1> -->
+<!-- 
+ <input type="text" placeholder="add item here" id="_item">
+<button onclick="addData()">add item</button>
+<hr />
+
+
+<div id="_container"> 
+
+</div> -->
+
+<!-- firestore -->
+<input type="text" id="input">
+<button onclick="addData()">add data</button>
+<button onclick="editData()">update data</button>
+<button onclick="deleteData()">delte data</button>
+
+<hr />
+
+
+
+<div id="_container2">
+
+</div> 
+
+
+    <script src="./index.js"></script>
+</body>
+</html>
